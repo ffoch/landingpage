@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máquina Mortífera | Landing Page</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="hidden"> 
+                <img class="header__logo" src="./dist/images/mm_top.jpg" alt="Wanner">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item hidden">    
+                    <a href="#" class="button button--secundary">Alugue</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Assine</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    </section>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="./dist/images/wanner.jpeg" alt="wanner">
+            </div>
+            <h3>
+                Máquina Mortífera: Ação Clássica dos Anos 80
+            </h3>
+            <p>
+                <a href="#" class="link-text">Assinar a Warner</a>
+                <br>
+                <span class="text">
+                    R$ 27,90/mês o R$ 279,90/ano à vista*
+                </span>
+            <p class="text--small">
+                *O Preço pode variar caso a assinatura seja feita de outra plataforma.
+            </p>
+        </div>
+        <section>
+            <h2>Assista ao Trailer Oficial</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bKeW-MGu-qQ" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+               Assista Tambem
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/mm1.jpeg" alt="MM1">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mm2.jpeg" alt="MM2">
+            </li>  
+            <li class="shows__list__item">
+                <img src="./dist/images/mm3.jpeg" alt="MM3">
+            </li>  
+            <li class="shows__list__item">
+                <img src="./dist/images/mm4.jpeg" alt="MM4">
+            </li>  
+            <li class="shows__list__item">
+                <img src="./dist/images/mm5.jpeg" alt="mm5">
+            </li>
+        </ul>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/serie.jpeg" alt="mm icone">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Assista do seu jeito</h2>
+            <p class="text--big">
+                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width ">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/icone.jpeg" />
+            <img src="./dist/images/icone.jpeg" alt="Rei Leão">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">Reviva a emoção</h2>
+            <p class="text--big">
+                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
+            </p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/wanner.jpeg" alt="Wanner">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">
+                        Dispositivos compatíveis
+                    </a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Sobre a Warner</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                TM & © 2025 Warner Bros. Entertainment Inc.
+            </p>
+            <p class="text--small">
+                Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
